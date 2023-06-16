@@ -1,0 +1,261 @@
+*{
+    font-family: 'Montserrat';
+
+}
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: #1C7730;   
+}
+.title{
+    float: left;
+    color: white;
+    font-size: 64px;
+}
+img{
+    float: left;
+}
+.logout{
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.links{
+  cursor: pointer;
+  text-decoration: none;
+}
+ .tabContainer {
+    margin: 0 auto;
+    width: 75%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+  }
+  .button_container{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button_assigned{
+    background-color: #6fce72;
+    float:left;
+    color: #050000;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 80px;
+    height: 65px;
+    transition: .3s;
+  }
+
+.button_assigned.active {
+  background-color: #12e912;
+  box-shadow: 0 0 0 5px #0f10105f;
+  color: #fff;
+}
+  .button_missing{
+    background-color: #6fce72;
+    float:left;
+    color: #050000;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 80px;
+    height: 65px;
+    transition: .3s;
+  }
+  .button_missing.active {
+    background-color: #eb490e;
+    box-shadow: 0 0 0 5px #0f10105f;
+    color: #fff;
+  }
+  .button_done{
+    background-color: #6fce72;
+    float:left;
+    /* color: #9BB1E9; */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 80px;
+    height: 65px;
+    transition: .3s;
+  }
+  .button_done.active {
+    background-color: #4B79EF;
+    box-shadow: 0 0 0 5px #0f10105f;
+    color: #fff;
+  }
+  .button_text{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   position: relative;
+  }
+  .as_text{
+    float: left;
+    font-size:x-large;
+  }
+  .ms_text{
+    float: left;
+    font-size:x-large;
+    margin-right: 20px;
+  }
+  .dn_text{
+    float: left;
+    font-size:x-large;
+    margin-right: 20px;
+  }
+  .tabContainer .tabpanel{
+    margin-top:5px;
+    background-color: #ACF0A6;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 22px;
+    transition:0.3s;
+    border:2px solid black;
+    border-radius:5px;
+    border-top:none;
+    display: none;
+    /* transition:  0.1s ease-in-out; */
+}
+
+.tabContainer .tabpanel .as_tabs{
+  width:70%;
+  /* height:112px; */
+  display:flex;
+  background-color:#E2F7D1;
+  border-radius:10px;
+  border: 1px solid black;
+  /* display:none; */
+  cursor: pointer;
+}
+
+.as_tabs:hover{
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
+  box-shadow: 0 0 20px #050000;
+}
+.ms_tabs{
+  width:70%;
+  /* height:112px; */
+  display:flex;
+  background-color:#E2F7D1;
+  border: 1px solid black;
+  border-radius:10px;
+}
+.ms_tabs:hover  {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.dn_tabs{
+  width:70%;
+  /* height:112px; */
+  display:flex;
+  background-color:#E2F7D1;
+  border: 1px solid black;
+  border-radius:10px;
+  /* display:none; */
+}
+.dn_tabs:hover{
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.img{
+  width: auto;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+} 
+.s_container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* align items to the left */
+  /* gap: 10px; add a gap between each item */  
+}
+
+.titlet{
+  color: #050000;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+/* {
+  color: #050000;
+  margin-bottom: 2rem;
+  font-size: 10px;
+} */
+
+.desc{
+  font-size: 20px;
+  color: #050000;
+  margin-bottom:0
+}
+
+h6{
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: #050000;
+}
+
+.target {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.timing, .date {
+  font-size: 12px;
+  font-weight:50px;
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  .header{
+    position: relative;
+    width: 100%;
+    height: 140px;
+}
+
+.title{
+    float: left;
+    font-size: 32px;
+}
+.logout{
+    position: unset;
+    font-size: 20px;
+    float: right;
+    padding-top: 100px;
+    padding-right: 15px;
+}
+.as_text{
+  float: left;
+  font-size: smaller;
+}
+.ms_text{
+  float: left;
+  font-size: smaller;
+  margin-right: 20px;
+}
+.dn_text{
+  float: left;
+  font-size: smaller;
+  margin-right: 20px;
+} 
+}

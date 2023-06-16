@@ -1,0 +1,24 @@
+* {
+    font-family: "Montserrat";
+  }
+  .header {
+    width: 100%;
+    margin-right: 0px;
+    height: 140px;
+    background-color: #1c7730;
+  }
+  .title {
+    float: left;
+    color: white;
+    font-size: 64px;
+  }
+  img {
+    float: left;
+  }
+  .logout {
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: white;
+  }
+  

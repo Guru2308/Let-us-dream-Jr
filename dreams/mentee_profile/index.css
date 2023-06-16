@@ -1,0 +1,200 @@
+*{
+    font-family: 'Montserrat';
+}
+
+a{
+    color: #1C7730;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 10px;
+    background-color: #1C7730;
+    
+}
+.title{
+    float: left;
+    color: white;
+    font-size: 55px;
+}
+img{
+    float: left;
+}
+
+.logout{
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+    height: 50px;
+    width: 5rem;
+    padding-top: 50px;
+    padding-right: 100px;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+.logout:hover{
+    color: black;
+    top: -2px;
+}
+
+
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+
+/* Rectangle 6 */
+.rectangle{
+position: absolute;
+width: 351px;
+height: 95px;
+padding: 20px;
+background: #C2ECAE;
+border-radius: 20px;
+}
+
+
+.rectangle h3{
+position: absolute;
+width: 184.03px;
+height: 61.11px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+
+.rect {
+    position: absolute;
+    width: 520px;
+    height: 305px;
+    top: 347px;
+    padding: 20px;
+    background: #C2ECAE;
+    border-radius: 20px;
+}
+
+#det th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 60px;
+    text-align: left;
+    background-color: transparent;
+    color: rgb(6, 1, 1);
+  }
+.butt{
+    position: absolute;
+width: 200px;
+height: 60px;
+top: 438px;
+
+}
+.butt button{
+    border-radius: 20px;
+    padding: 15px;
+}
+.rect3 {
+    position: absolute;
+    width: 470px;
+    height: 430px;
+    top: 547px;
+    padding: 20px;
+    background: #C2ECAE;
+    border-radius: 20px;
+}
+.rect2 {
+    position: absolute;
+    width: 470px;
+    height: 205px;
+    padding: 20px;
+    background: #C2ECAE;
+    border-radius: 20px;
+}
+
+.header1{
+    background-color: green;
+    width: 100%;
+    height: 140px;
+    background-color: #1C7730;
+    
+}
+@media screen and (min-width: 300px){
+
+    .header{
+              position: relative;
+              width: 100%;
+              height: 140px;
+          }
+    .title{
+            float: relative;
+            font-size: 32px;
+        }
+    .logout{
+            position: relative;
+            font-size: 20px;
+            cursor: pointer;
+            float: right;
+            padding-top: 20px;
+            padding-right: 15px;
+        }
+    
+    .rectangle{
+        position: relative;
+        width: 250px;
+        height: 50px;
+        padding: 20px;
+    }
+    .rectangle h3{
+        font-size: 95%;
+        position: absolute;
+        top: 10px;
+        
+    }
+    .rect2 {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        padding: 20px;
+        top: 20px;
+        background:  #C2ECAE;
+        border-radius: 20px;
+    }
+    .rect2 h1{
+        font-size: 95%;
+    }
+    .rect {
+        position: relative;
+        width: 420px;
+        height: 305px;
+        top: 10px;
+        padding: 20px;
+        background: #C2ECAE;
+        border-radius: 20px;
+    }
+    .butt{
+        position: relative;
+        width: 200px;
+        height: 60px;
+        top: 30px;
+    
+    }
+    .rect3 {
+        position: relative;
+        width: 470px;
+        height: 430px;
+        top: 50px;
+        padding: 20px;
+        background: #C2ECAE;
+        border-radius: 20px;
+    }
+    }

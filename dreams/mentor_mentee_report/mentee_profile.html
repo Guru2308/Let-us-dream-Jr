@@ -1,0 +1,119 @@
+<!-- Student Profile -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <!-- Font Awesome CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+  <link rel="stylesheet" type="text/css" href="mentee_profile.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <script src="mentee_profile.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.6/jspdf.plugin.autotable.min.js"></script>
+  <title>mentee_profile</title>
+</head>
+
+<body>
+  <div class="header pd-0">
+    <img class ="headerimage" src="Dreams B.png" width="130px" height="130px" />
+    <h1 class="title ps-3 pt-4">DREAMS</h1>
+    <h2 class="logout">Logout</h2>
+  </div>
+
+  <div class="student-profile py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-header bg-transparent text-center">
+              <img class="profile_img" src="https://cdn.statusqueen.com/dpimages/thumbnail/Cute_Exam__Whatsapp_dp_image-1368.jpg" alt="">
+              <br><br>
+              <h3 class="student_name">Ferdeno</h3>
+            </div>
+
+          </div>
+          
+
+
+        </div>
+
+        <div class="col-lg-8">
+          <div class="card shadow-sm">
+            <div class="card-header bg-transparent border-0">
+              <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Student Information</h3>
+            </div>
+            <div class="card-body pt-0">
+              <table class="table table-bordered" id="simple_table">
+                <tr>
+                  <th width="30%">Student ID</th>
+                  <td class="register_name">2062018</td>
+                </tr>
+                <tr>
+                  <th width="30%">Class</th>
+                  <td class="class_name">6BTCSAIML</td>
+                </tr>
+                <tr>
+                  <th width="30%">Section</th>
+                  <td class="section_name">A</td>
+                </tr>
+                <tr>
+                  <th width="30%">DOB</th>
+                  <td class="DOB">10/12/2002</td>
+                </tr>
+                <tr>
+                  <th width="30%">Roll</th>
+                  <td class="role_name">Mentee</td>
+                </tr>
+                <tr>
+                  <th width="30%">Academic Year </th>
+                  <td class="academic_year">2023</td>
+                </tr>
+                <tr>
+                  <th width="30%">Gender</th>
+                  <td class="gender">Male</td>
+                </tr>
+                <tr>
+                  <th width="30%">Religion</th>
+                  <td class="nationality">Indian</td>
+                </tr>
+                <tr>
+                  <th width="30%">Blood</th>
+                  <td class="blood_group">A+</td>
+                </tr>
+                <tr>
+                  <th width="30%">Course</th>
+                  <td class="course_assigned">Maths,English,Science</td>
+                </tr>
+                <tr>
+                  <th width="30%">Assigned Mentor</th>
+                  <td class="course_assigned">Deno</td>
+                </tr>
+                <tr>
+                  <th width="30%">Contact Number</th>
+                  <td class="contact_number">9344553033</td>
+                </tr>
+                <tr>
+                  <th width="30%">Address</th>
+                  <td class="Address">Bangalore</td>
+                </tr>
+              </table>
+              <div>
+                <input type="button" onclick="generate()" class="download_button" value="Download"></button>
+              </div>
+              
+   
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

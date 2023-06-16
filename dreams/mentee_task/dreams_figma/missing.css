@@ -1,0 +1,367 @@
+*{
+    font-family: 'Montserrat';
+
+}
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: #1C7730;
+    
+}
+.title{
+    float: left;
+    color: white;
+    font-size: 64px;
+}
+img{
+    float: left;
+}
+.logout{
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.head
+{
+    padding: auto;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-left: 185px;
+}
+.headhr
+{
+    width: 1100px;
+    height: 20px;
+    left: 80px;
+    top: 233px;
+    border: 2px solid #000000;
+    transform: rotate(-0.19deg);
+/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.assignimg
+{
+    position: absolute;
+    left: 85px;
+    top: 145px;
+    width:100px;
+    height:100px;
+}
+
+.content
+{
+    /* box-sizing: border-box;
+    width: 1100px;
+    height: 75px;
+    margin: auto;
+    padding: 180px;
+    background-color: #70ec8b;
+    /* margin-left: 7%; */
+    /* border-radius: 20px;    
+    border: 1px solid black;
+    flex: none;
+    order: 0;
+    flex-grow: 0; */ 
+    /* Task */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 51px 40px 51px 36px;
+    gap: 12px;
+
+    position: absolute;
+    width: 1100px;
+    height: 495px;
+    left: 80px;
+    top: 280px;
+
+    background: #DFF4D7;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+.content .tasktitle
+{
+    /* padding: 2px; */
+    /* position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 900px;
+     */
+    /* background-color: aliceblue; */
+    /* Today’s Task */
+
+
+    position: absolute;
+    width: 280.52px;
+    height: 44px;
+    left: 36px;
+    top: 81px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Montserrat';
+}
+.spookysticker{
+    /* Spooky Stickers Chunky Bat */
+
+
+    position: absolute;
+    width: 85.14px;
+    height: 65px;
+    left: 140px;
+    top: 51px;
+
+    background: url(.png);
+}
+.graduateimg{
+    /* Hands Graduate */
+
+
+    position: absolute;
+    width: 51.35px;
+    height: 50px;
+    left: 1000px;
+    top: 60px;
+
+    background: url(.png);
+}
+hr{
+
+    position: absolute;
+    width: 1020px;
+    height: 0px;
+    left: 36.38px;
+    top: 100px;
+
+    border: 3px solid black;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.topic
+{
+    position: absolute;
+    width: 644px;
+    height: 35px;
+    left: 40px;
+    top: 137px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+/* .youtubeimg
+{
+    position: absolute;
+    width: 110px;
+    height: 49px;
+    left: 26px;
+    top: 142px;
+
+    background: url(image.png);
+    border-radius: 20px;
+} */
+.youtubelink
+{
+    
+    position: absolute;
+    width: 630px;
+    height: 29px;
+    left: calc(50% - 765px/2 - 124px);
+    top: 195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+
+.date
+{
+    position: absolute;
+    width: 125px;
+    height: 20px;
+    left: 900px;
+    top: 231px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: red;
+}
+.instruction
+{
+    position: absolute;
+    width: 280.87px;
+    height: 30.42px;
+    left: 40px;
+    top: 263px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.Insthr
+{
+    position: absolute;
+    width: 554.1px;
+    height: 0px;
+    left: 36px;
+    top: 280px;
+
+    border: 1px solid #000000;
+}
+.desc
+{
+    position: absolute;
+    width: 500px;
+    height: 101px;
+    left: 37px;
+    top: 305px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+.done
+{
+    position: absolute;
+    width: 205px;
+    height: 29px;
+    left: 40px;
+    top: 450px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+/* identical to box height */
+    color: #000000;
+}
+label{
+    padding-left: 27px;
+}
+.done input:checked ~ .Done {
+    background-color: #1C7730;
+  }
+.done input
+{
+    position: absolute;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.btn
+{      
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 500px;
+    top: 530px;
+    overflow: hidden;
+    border: 2px solid #1C7730;  
+    font-size: 1rem;
+    text-align: center;
+    color: red;
+    background: none;
+    cursor: pointer;
+    margin: 15px 30px;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 4rem;
+    font-weight:700;
+}
+.btn:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+   box-sizing: border-box;
+}
+.btn-02:after {
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: red;
+}
+.btn-02:hover,
+.btn-02:active {
+  color: #ffffff;
+
+}
+.btn-02:hover:after,
+.btn-02:active:after 
+{
+    height:100%;
+}
+@media screen and (max-width: 600px) {
+    .header{
+      position: relative;
+      width: 100%;
+      height: 140px;
+  }
+
+  .title{
+      float: left;
+      font-size: 32px;
+  }
+  .logout{
+    position: relative;
+    font-size: 20px;
+    float: right;
+    padding-top: 100px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.head
+{
+    position: relative;
+    margin-top: 65px;
+    font-size: 25px;
+}
+.headhr
+{
+    width: 1100px;
+    height: 20px;
+    left: 35px;
+}
+.assignimg
+{
+    position: absolute;
+    left: 15px;
+    top: 150px;
+
+}
+.content
+{ 
+    width: 1100px;
+    height: 495px;
+    left: 35px;
+    top: 280px;
+}   
+}

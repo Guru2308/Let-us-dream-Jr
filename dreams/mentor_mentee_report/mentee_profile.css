@@ -1,0 +1,192 @@
+*{
+  font-family: "Montserrat";
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100wh;
+  background: #f6f6f6;;
+  color: var(--darkest);
+}
+
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: #1C7730;
+}
+
+.logout{
+  float: right;
+  padding-top: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+.title{
+  float: left;
+  color: white;
+  font-size: 64px;
+
+}
+
+.headerimage{
+  float: left;
+  /* margin-right: 10px; */
+}
+
+h2{
+  padding: 50px;
+}
+/*
+header h1{
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  font-family: "Montserrat";
+}
+.header{
+  display: flex;
+  align-items:center;
+  margin-top: -1.5rem;
+  max-width: 100%;
+  box-shadow: 0 0 10px ;
+  color: #000000;
+  background-color: white; 
+}
+.header h1{
+  margin-left: 8rem;
+  margin-top: -7.5rem;
+  font-size: 2rem;
+  font-family:"Montserrat";
+  font-weight: 850;
+  color: white;
+  padding-right: 50%;
+  margin-right: 0%;
+}
+
+.header h2{
+  margin-left: 8rem;
+  margin-top: -6rem;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 1150;
+  color: white;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+
+.header h3{
+  margin-left: 8rem;
+  margin-top: -3rem;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 850;
+  color: white;
+  padding-right: 0%;
+  margin-right: 20%;
+}
+.header h4{
+  color: #f6f6f6;
+  margin-left: 8rem;
+  margin-top: -2rem;
+}
+
+
+.header header{
+  background-color: #2c3e50;
+  color:#524f4c ;
+}
+
+#hdr{
+  max-width: 100%;
+  background-color: #2c3e50;
+}
+*/
+.backb{
+  color: #1abc9c;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700px;
+  padding: 10px 20px;
+  font-size: 20px;
+  float: right;
+  margin-top: -9rem;
+  padding-right: 0px;
+}
+
+.backb:hover {
+  color: #ddd;
+}
+.student-profile .card {
+    border-radius: 10px;
+}
+  
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+  }
+  
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+  
+  .student-profile .table th,
+  .student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+  }
+  /* .header
+   {
+    padding: 50px;
+    text-align: center;
+    background: #1c6556;
+    color: white;
+    font-size: 30px;
+  } */
+  .download_button {
+    background-color: #1c6556; 
+    border-radius: 120px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+  }
+  .download_button:hover
+  {
+    background-color: #36907e;
+  }
+  @media screen and (max-width: 600px) {
+    .header{
+      position: relative;
+      width: 100%;
+      height: 140px;
+  }
+
+  .title{
+      float: left;
+      font-size: 32px;
+  }
+  .logout{
+      position: unset;
+      font-size: 20px;
+      float: right;
+      padding-top: 20px;
+      padding-right: 15px;
+  }
+    
+  }
